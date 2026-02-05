@@ -67,9 +67,9 @@ public class FirstController {
         }
 
         if(fredag){
-            return "style=\"color:MediumSeaGreen;\" > YES<b>";
+            return "YES";
         }
-        else return "style=\"color:Tomato;\"NO - Days till friday: " + (5 - dayNumber + 7) % 7;
+        else return "NO - Days till friday: " + (5 - dayNumber + 7) % 7;
 
     }
 
